@@ -10,7 +10,7 @@ $(document).ready(function () {
         if (list.length > 0) {
             $('div.amenities > h4').text(Object.values(checkedAmenities).join(', '));
         } else {
-            $('div.amenities > h4').html('&nbsp');
+            $('div.amenities > h4').html('&nbsp;');
         }
     });
 });
